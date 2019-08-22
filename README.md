@@ -11,21 +11,7 @@
 	- Your algorithm should accept 2 parameters:
 	An array of integers that will represent the proportion of the recipe made up by an item (e.g. the recipe will be a[1] parts item 1 and a[2] parts of item 2.
 	An array of integers that will represent the number of grams available of each item. Your algorithm should output an array of integers that will represent the number of grams remaining of each ingredient after making the largest item possible, based on their recipe.
+		-   |    Expected array Inputs    | Expected Result       |
+			| ------------- |:-------------:|
+			| [1, 2, 3], 25, 18, 72   | [6, 0, 45]|
 
-			
-- Expected array Inputs
-	- 1, 2, 3
-	- 25, 18, 72
-- Expected Result
-	- 16, 0, 45
-
-- Expected array Inputs
-	- 1, 3, 2
-	- 25, 18, 72
-- Expected Result
-	- 19, 0, 60
-- Expected array Inputs
-	- 1, 6, 2
-	- 25, 72, 18
-- Expected Result
-	- 16, 18, 0     
