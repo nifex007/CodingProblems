@@ -1,5 +1,4 @@
-# DailyCodingProblem
-Solutions to Daily Coding Problems by [Daily Coding Problem](dailycodingproblem.com)
+# CodingProblems
 
 1. Given a list of numbers and a number k, return whether any two numbers from the list add up to k.
 	- For example, given [10, 15, 3, 7] and k of 17, return true since 10 + 7 is 17.
@@ -9,8 +8,7 @@ Solutions to Daily Coding Problems by [Daily Coding Problem](dailycodingproblem.
 	- For example, if our input was [1, 2, 3, 4, 5], the expected output would be [120, 60, 40, 30, 24]. If our input was [3, 2, 1], the expected output would be [2, 3, 6].
 		- [answer in js](js/problem2.js)		
 3. You have a friend who runs a bakery. They are competing to be the most efficient bakery in their city.  They are very precise about the amount of each ingredient that they put into their food, and they would like to know exactly  how much of each ingredient will remain after following each recipe.
-
-	    # Your algorithm should accept 2 parameters:
+	    Your algorithm should accept 2 parameters:
 			An array of integers that will represent the proportion of the recipe made up by an item (e.g. the recipe will be a[1] parts item 1 and a[2] parts of item 2.
 
 			An array of integers that will represent the number of grams available of each item. Your algorithm should output an array of integers that will represent the number of grams remaining of each ingredient after making the largest item possible, based on their recipe.
