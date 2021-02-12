@@ -17,3 +17,12 @@
 				| [1, 2, 3], [25, 18, 72]   | [6, 0, 45]|
 				| [1, 3, 2], [25, 18, 72]   | [19, 0, 60]|
 				| [1, 6, 2], [25, 72, 18]   | [16, 18, 0]|
+
+
+4. Have the function FindIntersection(strArr) read the array of strings stored in strArr which will contain 2 elements: the first element will represent a list of comma-separated numbers sorted in ascending order, the second element will represent a second list of comma-separated numbers (also sorted). Your goal is to return a comma-separated string containing the numbers that occur in elements of strArr in sorted order. If there is no intersection, return the string false.
+Examples
+- Input: ["1, 3, 4, 7, 13", "1, 2, 4, 13, 15"]
+Output: 1,4,13
+- Input: ["1, 3, 9, 10, 17, 18", "1, 4, 9, 10"]
+Output: 1,9,10
+- [answer in js](js/findIntersection.js)
